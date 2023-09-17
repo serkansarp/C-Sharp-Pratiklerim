@@ -1,4 +1,4 @@
-# _My C# Practices_ / C# Pratiklerim (Console, .NET Framework)
+# _My C# Practices / C# Pratiklerim (Console, .NET Framework)_
 
 ##### (Turkish below)
 #### At first, I must say, I know how to code in C and C++ (with object-oriented programming side) and last, I've learned Python syntax. My practices are for learning C# by other 3 software language syntax differencies. It is not recommended for those who will start learning C# directly, otherwise it will cause theoretical, simple information that should be memorized in advance to be overlooked. I also recommend that you learn your own code by writing it yourself from beginning to end and making mistakes and correcting them. Working on example codes is quickly forgotten -although it varies depending on age-. However, it is suitable for people with prior knowledge and those who have extensive knowledge of C++ and object-oriented programming. However, they also know that after a while, after writing code without comment lines, a person cannot remember the code he wrote himself, and yes, he has to write the comment lines himself, too.
