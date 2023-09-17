@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001. Giriş", "C Sharp Pratiklerim\001. Giriş.csproj", "{2F35F72A-A964-48AB-94AA-0403B986448C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002. Değişkenler", "002. Değişkenler\002. Değişkenler.csproj", "{76F64DD4-99E4-4A7F-A416-F2D43989316E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F35F72A-A964-48AB-94AA-0403B986448C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F35F72A-A964-48AB-94AA-0403B986448C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F35F72A-A964-48AB-94AA-0403B986448C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F35F72A-A964-48AB-94AA-0403B986448C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F64DD4-99E4-4A7F-A416-F2D43989316E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F64DD4-99E4-4A7F-A416-F2D43989316E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F64DD4-99E4-4A7F-A416-F2D43989316E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F64DD4-99E4-4A7F-A416-F2D43989316E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02927F08-C243-45B2-A5CC-7E9EE26A58CF}
+	EndGlobalSection
+EndGlobal
