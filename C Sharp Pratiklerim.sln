@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002. Değişkenler", "002. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003. Kullanıcıdan Input Alma", "003. Kullanıcıdan Input Alma\003. Kullanıcıdan Input Alma.csproj", "{09ADC515-B129-43C5-A65E-357D96161038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004. Type Conversion - Tür Dönüşümleri", "004. Type Conversion - Tür Dönüşümleri\004. Type Conversion - Tür Dönüşümleri.csproj", "{3FD595F3-E618-4114-86BB-5683CA569CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005. Diziler ve Foreach Döngüsü", "005. Diziler ve Foreach Döngüsü\005. Diziler ve Foreach Döngüsü.csproj", "{AD67BA8B-147C-4997-BF03-EC18B8E3F3ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{09ADC515-B129-43C5-A65E-357D96161038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09ADC515-B129-43C5-A65E-357D96161038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09ADC515-B129-43C5-A65E-357D96161038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD595F3-E618-4114-86BB-5683CA569CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD595F3-E618-4114-86BB-5683CA569CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD595F3-E618-4114-86BB-5683CA569CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD595F3-E618-4114-86BB-5683CA569CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD67BA8B-147C-4997-BF03-EC18B8E3F3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD67BA8B-147C-4997-BF03-EC18B8E3F3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD67BA8B-147C-4997-BF03-EC18B8E3F3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD67BA8B-147C-4997-BF03-EC18B8E3F3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
