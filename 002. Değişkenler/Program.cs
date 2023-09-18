@@ -14,7 +14,8 @@ using System.Threading.Tasks;
 •   object'i ilk defa öğrendim ** . Tip dönüşümünde etkili bir değişkenmiş.
 •   Konsolu bekletmek için Console.Readline()'dan Console.ReadKey()'e geçtim, artık enter
     yerine herhangi bir tuş, konsolu kapatabiliyor.
-
+•   Mantıksal ve unary operatörler (=,==,!=,||,&&,!,<=,>=,<,>), işlem operatörleri (+,-,*,/,+=,-=,*=,/*
+    hatta mod %), prefix/postfix işlemler (x++,--x) bilindiği için atlanılmıştır.
  */
 namespace _002.Değişkenler
 {
