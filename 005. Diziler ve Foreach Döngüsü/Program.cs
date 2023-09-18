@@ -14,14 +14,6 @@ using System.Threading.Tasks;
 •   Foreach döngüsü ise, örnekteki dizi için foreach(string a in calisanlar) şeklinde başlatılıyor ve her
     indisten sonra bir sonrakine geçerek yazıyor. Kullanımı basit, ayrıca kullanışlı bir araç, length
     gerektirmiyor.
-•   
-•   
-•   
-•   
-•   
-•   
-•   
-•   
  */
 
 namespace _005.Diziler_ve_Foreach_Döngüsü
