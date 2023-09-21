@@ -14,7 +14,8 @@ using System.Threading.Tasks;
 •   hw() geri dönüş türü olmayan void metod, Hello, world! yazdıracak.
 •   usAl() ise int döndüren, gönderilen sayının üssünü alan metod, ikisini sırasıyla kullandık.
 •   Eski pow(x,y) şeklindeki sayının kuvvetini bulan metod, Math.Pow(x,y) olmuş ve double değer döndürdüğü
-    için Convert.ToInt32 içerisinde alıp metodun dönüş değerine uyarladık.
+    için Convert.ToInt32 içerisinde alıp metodun dönüş değerine uyarladık veya öncesinde int dönüşümü yapıp
+    metodu n*n şeklinde de yazabilirdik.
  */
 
 namespace _006.Metodlar
