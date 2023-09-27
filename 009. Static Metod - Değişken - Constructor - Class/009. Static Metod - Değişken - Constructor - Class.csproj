@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Araba.cs" />
     <Compile Include="Kedi.cs" />
+    <Compile Include="Matematik.cs" />
     <Compile Include="Ogrenci.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
