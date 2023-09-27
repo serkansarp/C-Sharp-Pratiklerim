@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008. TC Kimlik Numarası Ç
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009. Static Metod - Değişken - Constructor - Class", "009. Static Metod - Değişken - Constructor - Class\009. Static Metod - Değişken - Constructor - Class.csproj", "{C86304FC-A101-4484-B346-03C9088AC566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010. List", "010. List\010. List.csproj", "{CA8E5B96-7882-4C7F-829A-DF1FB2B1BDC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C86304FC-A101-4484-B346-03C9088AC566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C86304FC-A101-4484-B346-03C9088AC566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C86304FC-A101-4484-B346-03C9088AC566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8E5B96-7882-4C7F-829A-DF1FB2B1BDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8E5B96-7882-4C7F-829A-DF1FB2B1BDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8E5B96-7882-4C7F-829A-DF1FB2B1BDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8E5B96-7882-4C7F-829A-DF1FB2B1BDC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
