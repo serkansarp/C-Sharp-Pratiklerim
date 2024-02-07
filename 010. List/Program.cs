@@ -13,6 +13,7 @@ using System.Threading.Tasks;
     düşünebiliriz, ki zaten öyleler.
 •   .Add, yeni bir eleman ekler, boş calisanlar List'imize 3 çalışan ekledik ve foreach ile sırasıyla yazdırdık.
 •   .Remove ile elemanı list'ten çıkardık ve tekrar yazdırdık, artık o elemanı listede görmüyoruz.
+•   .RemoveAt(2) ile 2. indisteki elemanı listeden çıkarabiliriz.
 •   .Count, eleman sayısını verir, kullandık.
 •   .Contains ile yazılan elemanın listede olup olmadığını kontrol ettik, True döndüğünü gördük.
 •   .IndexOf, dizideki indisini verir, saymanın 0'dan başladığını unutmayalım.

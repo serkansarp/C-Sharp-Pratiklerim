@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010. List", "010. List\010.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011. Inheritance", "011. Inheritance\011. Inheritance.csproj", "{28563583-B32D-43B6-8A72-DE1DACA788D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012. Çok Boyutlu Diziler", "012. Çok Boyutlu Diziler\012. Çok Boyutlu Diziler.csproj", "{C9EB8E14-A373-4BBC-A23C-75061844BBEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{28563583-B32D-43B6-8A72-DE1DACA788D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28563583-B32D-43B6-8A72-DE1DACA788D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28563583-B32D-43B6-8A72-DE1DACA788D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9EB8E14-A373-4BBC-A23C-75061844BBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EB8E14-A373-4BBC-A23C-75061844BBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EB8E14-A373-4BBC-A23C-75061844BBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EB8E14-A373-4BBC-A23C-75061844BBEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
