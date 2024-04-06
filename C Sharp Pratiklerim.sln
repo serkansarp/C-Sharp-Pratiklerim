@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012. Çok Boyutlu Diziler",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013. Params", "013. Params\013. Params.csproj", "{C805D7CC-A7B0-438D-9141-557F39D72DB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014. Dosya İşlemleri", "014. Dosya İşlemleri\014. Dosya İşlemleri.csproj", "{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C805D7CC-A7B0-438D-9141-557F39D72DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C805D7CC-A7B0-438D-9141-557F39D72DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C805D7CC-A7B0-438D-9141-557F39D72DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
