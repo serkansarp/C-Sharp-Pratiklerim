@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013. Params", "013. Params\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014. Dosya İşlemleri", "014. Dosya İşlemleri\014. Dosya İşlemleri.csproj", "{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console Output Formatting", "Console Output Formatting\Console Output Formatting.csproj", "{F93121BE-C94F-465B-85BA-660F0A9EE99F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93121BE-C94F-465B-85BA-660F0A9EE99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93121BE-C94F-465B-85BA-660F0A9EE99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93121BE-C94F-465B-85BA-660F0A9EE99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93121BE-C94F-465B-85BA-660F0A9EE99F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
