@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013. Params", "013. Params\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014. Dosya İşlemleri", "014. Dosya İşlemleri\014. Dosya İşlemleri.csproj", "{97467D9B-4B26-4C6C-AB45-2E7C01C9192B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console Output Formatting", "Console Output Formatting\Console Output Formatting.csproj", "{F93121BE-C94F-465B-85BA-660F0A9EE99F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015. Console Output Formatting", "Console Output Formatting\015. Console Output Formatting.csproj", "{F93121BE-C94F-465B-85BA-660F0A9EE99F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
