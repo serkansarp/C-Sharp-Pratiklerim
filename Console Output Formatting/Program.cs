@@ -26,6 +26,7 @@ namespace Console_Output_Formatting
             Console.WriteLine("{0:dd}" + " -Gün", zaman);                       // Sadece gün
             Console.WriteLine("{0:ddd}" + " -Haftanın günü (Kısa)", zaman);     // Haftanın hangi günü (kısa)
             Console.WriteLine("{0:dddd}" + " -Haftanın günü (uzun)", zaman);    // Haftanın hangi günü (uzun)
+            Console.WriteLine("{0:MM}" + " -Kaçıncı ay", zaman);                // Ay (kısa)
             Console.WriteLine("{0:MMM}" + " -Ay (kısa)", zaman);                // Ay (kısa)
             Console.WriteLine("{0:MMMM}" + " -Ay (uzun)", zaman);               // Ay (uzun)
             Console.WriteLine("{0:yy}"+" -Yıl (2 hane)", zaman);                // Yıl (son 2 hane)
