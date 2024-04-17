@@ -24,30 +24,40 @@ namespace Das_Heimweh_Enum_C_
                 "düzce"
             };
 
+
+            Console.WriteLine();
+            Console.WriteLine();
+
             string b = "0";
             Random rnd = new Random();
             int num = rnd.Next(10, 15);
+            int dogru = 0;
+            int soruSayisi = 20;
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < soruSayisi; i++)
             {
                 num = rnd.Next(1, 82);
 
-                Console.Write(num+": ");
+                Console.Write("{0:D2} : ", num);
 
                 b = Console.ReadLine();
 
-                if(b == sehirler[num])
+                if (b == sehirler[num])
                 {
                     Console.WriteLine("Doğru");
-                }else
+                    dogru++;
+                }
+                else
                 {
                     Console.WriteLine("Yanlış");
                 }
 
             }
-            
 
-            Console.ReadKey();            
+            Console.WriteLine("\nOyun Sonu!\nKazanılan Puan: " + dogru * 100 / soruSayisi);
+
+
+            Console.ReadKey();
         }
     }
 }
