@@ -24,10 +24,6 @@ namespace Das_Heimweh_Enum_C_
                 "düzce"
             };
 
-
-            Console.WriteLine();
-            Console.WriteLine();
-
             string b = "0";
             Random rnd = new Random();
             int num = rnd.Next(10, 15);
@@ -42,6 +38,11 @@ namespace Das_Heimweh_Enum_C_
 
                 b = Console.ReadLine();
 
+            if(b == "0")
+                {
+                    break;
+                }
+
                 if (b == sehirler[num])
                 {
                     Console.WriteLine("Doğru");
@@ -55,7 +56,6 @@ namespace Das_Heimweh_Enum_C_
             }
 
             Console.WriteLine("\nOyun Sonu!\nKazanılan Puan: " + dogru * 100 / soruSayisi);
-
 
             Console.ReadKey();
         }

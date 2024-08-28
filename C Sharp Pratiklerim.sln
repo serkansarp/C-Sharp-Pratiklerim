@@ -37,7 +37,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016. Console Settings Codin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017. Generics", "017. Generics\017. Generics.csproj", "{C1B4FC4A-DF85-4D94-93A7-DE5F4874D823}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Das Heimweh Turkish", "Das Heimweh Enum C#\Das Heimweh Turkish.csproj", "{2056BAE6-979F-459F-BC66-67C9E33B8257}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018. This Keyword", "018. This Keyword\018. This Keyword.csproj", "{A7064542-3B24-447C-B9F6-881DE677D940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019. Const-Readonly Farkı", "019. Const-Readonly Farkı\019. Const-Readonly Farkı.csproj", "{786E6FA5-07FC-45E3-9340-5F33ED41AC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020. Değer-Referans Farkı", "020. Değer-Referans Farkı\020. Değer-Referans Farkı.csproj", "{BC42865D-75D6-45F2-947B-48B7AD41862F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dnm", "dnm\dnm.csproj", "{D6D5218B-894C-424C-A2B5-9CCD4149B379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021. Static vs Non-static", "021. Static vs Non-static\021. Static vs Non-static.csproj", "{4D54D01A-088C-4636-80C6-81AA354B6AFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,10 +121,26 @@ Global
 		{C1B4FC4A-DF85-4D94-93A7-DE5F4874D823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1B4FC4A-DF85-4D94-93A7-DE5F4874D823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1B4FC4A-DF85-4D94-93A7-DE5F4874D823}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2056BAE6-979F-459F-BC66-67C9E33B8257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2056BAE6-979F-459F-BC66-67C9E33B8257}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2056BAE6-979F-459F-BC66-67C9E33B8257}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2056BAE6-979F-459F-BC66-67C9E33B8257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7064542-3B24-447C-B9F6-881DE677D940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7064542-3B24-447C-B9F6-881DE677D940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7064542-3B24-447C-B9F6-881DE677D940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7064542-3B24-447C-B9F6-881DE677D940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786E6FA5-07FC-45E3-9340-5F33ED41AC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786E6FA5-07FC-45E3-9340-5F33ED41AC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786E6FA5-07FC-45E3-9340-5F33ED41AC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786E6FA5-07FC-45E3-9340-5F33ED41AC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC42865D-75D6-45F2-947B-48B7AD41862F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC42865D-75D6-45F2-947B-48B7AD41862F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC42865D-75D6-45F2-947B-48B7AD41862F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC42865D-75D6-45F2-947B-48B7AD41862F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D5218B-894C-424C-A2B5-9CCD4149B379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D5218B-894C-424C-A2B5-9CCD4149B379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D5218B-894C-424C-A2B5-9CCD4149B379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D5218B-894C-424C-A2B5-9CCD4149B379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D54D01A-088C-4636-80C6-81AA354B6AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D54D01A-088C-4636-80C6-81AA354B6AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D54D01A-088C-4636-80C6-81AA354B6AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D54D01A-088C-4636-80C6-81AA354B6AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
