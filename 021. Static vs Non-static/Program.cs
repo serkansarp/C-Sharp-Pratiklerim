@@ -10,6 +10,7 @@ namespace _021.Static_vs_Non_static
     {
         static void Main(string[] args)
         {
+            // Static olan metodu direkt kullanabiliyoruz.
             yazdir("Selam");
 
             // Static olmayan kareAl metodunu kullanmak için nesne oluşturmamız gerekiyor
