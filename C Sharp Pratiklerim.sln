@@ -49,6 +49,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022. Metod Gizleme", "022. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023. Try-Catch Exception Handling", "023. Try-Catch Exception Handling\023. Try-Catch Exception Handling.csproj", "{5690F585-7BE1-40BA-8E6B-D5DB33C41AC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "024. Genişletme Metodları - Extention Methods", "024. Genişletme Metodları - Extention Methods\024. Genişletme Metodları - Extention Methods.csproj", "{EE2326CB-B521-43FD-8652-586AA4EFE415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "025. Method Overriding", "025. Method Overriding\025. Method Overriding.csproj", "{F1459C49-E0AC-4BDA-B473-A2937481E37A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026. Polymorphism - Çok Şekillilik", "026. Polymorphism - Çok Şekillilik\026. Polymorphism - Çok Şekillilik.csproj", "{93ED8F42-B269-471F-B3C0-66180E5B6B8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +153,18 @@ Global
 		{5690F585-7BE1-40BA-8E6B-D5DB33C41AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5690F585-7BE1-40BA-8E6B-D5DB33C41AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5690F585-7BE1-40BA-8E6B-D5DB33C41AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2326CB-B521-43FD-8652-586AA4EFE415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2326CB-B521-43FD-8652-586AA4EFE415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2326CB-B521-43FD-8652-586AA4EFE415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2326CB-B521-43FD-8652-586AA4EFE415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1459C49-E0AC-4BDA-B473-A2937481E37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1459C49-E0AC-4BDA-B473-A2937481E37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1459C49-E0AC-4BDA-B473-A2937481E37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1459C49-E0AC-4BDA-B473-A2937481E37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93ED8F42-B269-471F-B3C0-66180E5B6B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93ED8F42-B269-471F-B3C0-66180E5B6B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93ED8F42-B269-471F-B3C0-66180E5B6B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93ED8F42-B269-471F-B3C0-66180E5B6B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
