@@ -32,7 +32,7 @@ namespace _025.Method_Overriding
     {
         // Ezilen metod ise override ile belirtilir.
         // Not: Daha önce 'Metod Gizleme' konusunda new keywordü ile benzer bir pratiğimiz oldu.
-        // Aralarındaki fark polymorphism pratiğinde işledik.
+        // Aralarındaki farkı polymorphism pratiğinde işleyeceğiz.
         public override void Ses()
         {
             Console.WriteLine("Hav hav");
