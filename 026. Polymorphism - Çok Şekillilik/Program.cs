@@ -17,13 +17,14 @@ namespace _026.Polymorphism___Çok_Şekillilik
             Ana x = new Turemis();
             
             
-            // Turemis y = new Ana();   // Türemiş sınıf referansıyla Ana sınıftan nesne üretilemez.
+            /* Turemis y = new Ana();   // Türemiş sınıf referansıyla Ana sınıftan nesne üretilemez. */
 
 
             a.Yaz1();
             t.Yaz1();
             x.Yaz1();   // Referansını ana sınıftan aldığı için Ana sınıftaki metodu çalıştırır.
-
+            ((Turemis)x).Yaz1();    // Ancak casting ile yine Türemiş sınıf Yaz1'ine ulaşabiliriz. Çünkü x'i Turemis tipinde aldık.
+            
             Console.WriteLine();
 
             a.Yaz2();
@@ -31,7 +32,8 @@ namespace _026.Polymorphism___Çok_Şekillilik
             x.Yaz2();
             // Yaz2, ana sınıfta virtual (sanal), türemiş sınıfta override (ez)
             // ile belirtildiği için Ana sınıf tamamen görmezden gelinir.
-
+            
+            ((Ana)x).Yaz2();    // Ezdiğimiz için Ana türünde x göstersek bile Türemiş Yaz2'si çalışacaktır.
             Console.ReadKey();
         }
     }

@@ -53,7 +53,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "024. Genişletme Metodları
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "025. Method Overriding", "025. Method Overriding\025. Method Overriding.csproj", "{F1459C49-E0AC-4BDA-B473-A2937481E37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026. Polymorphism - Çok Şekillilik", "026. Polymorphism - Çok Şekillilik\026. Polymorphism - Çok Şekillilik.csproj", "{93ED8F42-B269-471F-B3C0-66180E5B6B8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026. Polymorphism - Virtual - Override", "026. Polymorphism - Çok Şekillilik\026. Polymorphism - Virtual - Override.csproj", "{93ED8F42-B269-471F-B3C0-66180E5B6B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "027. Sealed - Mühürlü", "Sealed - Mühürlü\027. Sealed - Mühürlü.csproj", "{9F60322E-DA9C-4237-8CBE-1D75385B1131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "028. Partial", "028. Partial\028. Partial.csproj", "{EFCA35DA-B62E-4C16-BCA8-0CD5A801D676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "029. Struct", "029. Construct\029. Struct.csproj", "{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{93ED8F42-B269-471F-B3C0-66180E5B6B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93ED8F42-B269-471F-B3C0-66180E5B6B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93ED8F42-B269-471F-B3C0-66180E5B6B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F60322E-DA9C-4237-8CBE-1D75385B1131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F60322E-DA9C-4237-8CBE-1D75385B1131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F60322E-DA9C-4237-8CBE-1D75385B1131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F60322E-DA9C-4237-8CBE-1D75385B1131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCA35DA-B62E-4C16-BCA8-0CD5A801D676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCA35DA-B62E-4C16-BCA8-0CD5A801D676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCA35DA-B62E-4C16-BCA8-0CD5A801D676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCA35DA-B62E-4C16-BCA8-0CD5A801D676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
