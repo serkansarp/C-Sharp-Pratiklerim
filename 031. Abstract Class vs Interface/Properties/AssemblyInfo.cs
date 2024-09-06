@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Deneme")]
+[assembly: AssemblyTitle("031. Abstract Class vs Interface")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Deneme")]
+[assembly: AssemblyProduct("031. Abstract Class vs Interface")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4b0180cd-5419-48c6-a511-4599a59dc588")]
+[assembly: Guid("b21a0fdf-864d-4cd0-8705-2ea404bc003a")]
 
 // Version information for an assembly consists of the following four values:
 //

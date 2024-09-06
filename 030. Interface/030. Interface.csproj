@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B0180CD-5419-48C6-A511-4599A59DC588}</ProjectGuid>
+    <ProjectGuid>{3F21C9CA-602B-4C9F-90DB-F920D46815FE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Deneme</RootNamespace>
-    <AssemblyName>Deneme</AssemblyName>
+    <RootNamespace>_030.Interface</RootNamespace>
+    <AssemblyName>_030.Interface</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

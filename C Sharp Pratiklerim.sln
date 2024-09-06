@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "028. Partial", "028. Partia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "029. Struct", "029. Construct\029. Struct.csproj", "{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "030. Interface", "030. Interface\030. Interface.csproj", "{3F21C9CA-602B-4C9F-90DB-F920D46815FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "031. Abstract Class vs Interface", "031. Abstract Class vs Interface\031. Abstract Class vs Interface.csproj", "{B21A0FDF-864D-4CD0-8705-2EA404BC003A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D7E1067-0A75-4EB7-A278-1B26B779DFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F21C9CA-602B-4C9F-90DB-F920D46815FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F21C9CA-602B-4C9F-90DB-F920D46815FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F21C9CA-602B-4C9F-90DB-F920D46815FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F21C9CA-602B-4C9F-90DB-F920D46815FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21A0FDF-864D-4CD0-8705-2EA404BC003A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21A0FDF-864D-4CD0-8705-2EA404BC003A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21A0FDF-864D-4CD0-8705-2EA404BC003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21A0FDF-864D-4CD0-8705-2EA404BC003A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
