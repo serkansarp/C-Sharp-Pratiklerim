@@ -4,6 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+Indexer
+- Indexer'lar (Türkçe: Dizinleyici), nesnenin diziler gibi indekslenebilmesini sağlar.
+- Sınıfında yazım şekline dikkat edelim, prop olarak ve this ile belirlenir.
+- Nesnelere [] ile ulaşabilir duruma gelip, içerideki verileri dışarıdan dizi mantığıyla kullanabiliriz.
+Temel amacı bu olup, sınıf içerisindeki verilere daha kullanıcı dostu bir yaklaşımla erişmemize imkan
+tanır.
+ 
+*/
+
 namespace _032.Indexer
 {
     internal class Program
@@ -27,7 +37,8 @@ namespace _032.Indexer
         public int this[int index]
         {
             get { return data[index]; }
-            set { data[index] = (value+2)*3; }  // Set ederken 2 ekleyip toplamın 3 katını set ettik.
+            set { data[index] = (value+2)*3; }  // 2 ekleyip toplamın 3 katını set ettik. Normal de yapabilirdik,
+            // sadece yapabileceklerimizin görülmesi için bu şekilde yazdım. Yoksa standardı direkt value şeklinde.
         }
     }
 
