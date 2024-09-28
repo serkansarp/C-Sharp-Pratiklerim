@@ -9,13 +9,15 @@ using System.Threading.Tasks;
 - Nested (İç İçe Sınıflar)
 • Kod okunabilirliğini artırmak + 
 • Encapsulation gereği (Daha iyi kapsülleme sağlar) +
-• İçteki sınıfı sadece dıştaki sınıfın kullandığı durumlar için çok kullanışlıdır.
-• İç içe sınıfların birleşiminden dış sınıf oluşur, her biri dış sınıfın parçasıdır. has-a yaklaşımı, içsel ilişki
+• İçteki (inner) sınıfı sadece dıştaki (outer) sınıfın kullandığı durumlar için çok kullanışlıdır.
+• İç içe sınıfların birleşiminden outer sınıf oluşur, her biri outer sınıfın parçasıdır. has-a yaklaşımı, içsel ilişki
   vardır (containment, içerme). (Kalıtımda ise is-a, hiyerarşi yaklaşımı vardı.)
-• * Ek olarak GetType().FullName kullanımı ile de hangi sınıfın altında, '+' ile
-  hangi sınıf altında çalıştığını, nested olduğunu öğrenmiş olduk. Gerektiği durumlarda "replace" ile '+' yerine
-  '.' karakterini gösterebiliriz. Yazılımcıların daha alışkın olduğu ve okunabilir bir kod olur ancak gereksiz
-  bellek harcar.
+• Ek-1: Outer sınıf öğelerine inner sınıftan ulaşmak için nesne üretebilir ya da outer sınıfı static yapabiliriz. Ancak
+  static sınıfların tüm öğelerinin de static olması gerekliliği, nested classlar için geçerli değil. Yani inner
+  classlar non-static kalabilir.
+• Ek-2: GetType().FullName kullanımı ile de hangi sınıfın altında, + ile hangi sınıf içinde çalıştığını,
+  nested olduğunu öğrenmiş olduk. Gerektiği durumlarda "replace" ile + yerine . karakterini gösterebiliriz.
+  Yazılımcıların daha alışkın olduğu ve okunabilir bir kod olur ancak gereksiz bellek harcar.
  */
 
 namespace _038.Nested__İç_İçe__Sınıflar
