@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "037. Checked, Unchecked - T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "038. Nested (İç İçe) Sınıflar", "038. Nested (İç İçe) Sınıflar\038. Nested (İç İçe) Sınıflar.csproj", "{B5A21ED3-1571-45FA-956F-8CADB3B17F6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "039. Anonymous Types - Anonim Tipler", "039. Anonymous Types - Anonim Tipler\039. Anonymous Types - Anonim Tipler.csproj", "{7A27E52B-1384-4D76-9EA9-707FECFAC81B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{B5A21ED3-1571-45FA-956F-8CADB3B17F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5A21ED3-1571-45FA-956F-8CADB3B17F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5A21ED3-1571-45FA-956F-8CADB3B17F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A27E52B-1384-4D76-9EA9-707FECFAC81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A27E52B-1384-4D76-9EA9-707FECFAC81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A27E52B-1384-4D76-9EA9-707FECFAC81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A27E52B-1384-4D76-9EA9-707FECFAC81B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
