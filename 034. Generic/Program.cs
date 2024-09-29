@@ -8,6 +8,8 @@ Generic
 - Farklı veri türleri için kullanılabilirler.
 - Sınıflara, alanlara, özelliklere <T> veya herhangi başka birşey, örneğin <Sey> veya <Thing> eklenerek
   kullanılır ama <T> daha açık görülür, kodun okunabilirliğini artırır. 
+- Daha önce işlemişiz (017), bu pratik biraz daha farklı olmuş, overloadlı olarak tek değişken ve dizi ile
+  kullanımlarıyla birlikte işlemişiz.
 */
 namespace _034.Generic
 {

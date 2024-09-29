@@ -10,6 +10,9 @@ using System.Threading.Tasks;
   'var obje = new { isim = "ahmet", yas=15 } şeklinde oluşturabiliriz.
 • Özellikleri yazdırabilir ama değiştiremeyiz. Get'leri vardır, set'leri yoktur yani.
 • Nested mantığı da desteklerler. Örnekte anonim içindeki detaylar tipi ile gösterdim.
+• En çok ihtiyaç duyuldukları alanlar LINQ sorguları (henüz işlemedik) ve geçici veri saklamak için kullanılır.
+• Hızlıca geçici veri gruplamak ve LINQ sorguları için idealken, genel kullanım için veri kaybı yaratabilme
+  ihtimaline karşı class ya da structlar kullanılması gerekir.
 */
 namespace _039.Anonymous_Types___Anonim_Tipler
 {
