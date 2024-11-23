@@ -20,13 +20,13 @@ namespace _999.Deneme
             string[] soru = {
             "Java nedir?",
             "Java yılı?",
-            "Java'nın yazılımcısı",
+            "Java'nın yazılımcısı kimdir?",
             "JavaScript nedir?",
             "JavaScript yılı?",
-            "Objective C nedir?",
-            "Objective C'yi kim kullanmaktadır",
+            "Objective-C nedir?",
+            "Objective-C'yi kim kullanmaktadır",
             "Swift nedir?",
-            "Swift'i kim kullanmaktadır",
+            "Swift'i kim kullanmaktadır?",
             "Python nedir?",
             "Python yılı?",
             "Kotlin nedir?",
@@ -84,13 +84,14 @@ namespace _999.Deneme
             "Google'ın desteklediği dil ve platform hangisidir?",
             "Sencha EXT JS nedir?",
             "Sencha EXT JS'in eski adı nedir?",
-            "Fortune 100 şirketlerinin %60'ının kullandığı çerçeve hangisidir?"            
+            "Fortune 100 şirketlerinin %60'ının kullandığı çerçeve hangisidir?"
             };
+
 
             string[] cevap = {
             "Dil",
             "1995",
-            "James Goslin - Sun > Oracle",
+            "James Gosling - Sun > Oracle",
             "Dil",
             "1995",
             "Dil",
@@ -98,7 +99,7 @@ namespace _999.Deneme
             "Dil",
             "Apple",
             "Dil",
-            "1911",
+            "1991",
             "Dil",
             "2011",
             "JetBrains",
@@ -159,16 +160,28 @@ namespace _999.Deneme
 
             Random rnd = new Random();
             int sayi = 0;
-
-            for(int i = 0; i < 60; i++)
+            string devam = "y";
+            int sayac = 1;
+            
+            while (devam == "y")
             {
-                sayi = rnd.Next(67);
-                Console.WriteLine(soru[sayi]);
-                    Console.ReadKey();
-                Console.WriteLine(cevap[sayi]);
-            }
+                
 
-            Console.ReadKey();
+                for (int i = 0; i < 10; i++)
+                {
+
+                    sayi = rnd.Next(soru.Length);
+                    Console.WriteLine(sayac + ". " + soru[sayi]);
+                    Console.ReadKey();
+                    Console.WriteLine(cevap[sayi]);
+                    sayac++;
+                }
+
+                Console.Write("Devam etmek istiyor musunuz (y/n): ");
+                devam = Console.ReadLine();
+                Console.Clear();
+
+            }
         }
     }
 }
