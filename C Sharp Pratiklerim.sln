@@ -89,6 +89,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "042. Reflection", "042. Ref
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "999. Deneme", "999. Deneme\999. Deneme.csproj", "{F29D1D27-3201-4135-BDB3-4D73AE6C0AA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "998. Deneysel srt altyazı dosyasını sadeleştir", "998. Deneysel srt altyazı dosyasını sadeleştir\998. Deneysel srt altyazı dosyasını sadeleştir.csproj", "{2AD4EDE8-3B46-447B-9FF0-2EB5A1006033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "997. Access Sorgu Deneme", "997. Access Sorgu Deneme\997. Access Sorgu Deneme.csproj", "{81A820C9-EE19-46F4-9827-EB94D2E70502}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +271,14 @@ Global
 		{F29D1D27-3201-4135-BDB3-4D73AE6C0AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F29D1D27-3201-4135-BDB3-4D73AE6C0AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F29D1D27-3201-4135-BDB3-4D73AE6C0AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD4EDE8-3B46-447B-9FF0-2EB5A1006033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD4EDE8-3B46-447B-9FF0-2EB5A1006033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD4EDE8-3B46-447B-9FF0-2EB5A1006033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD4EDE8-3B46-447B-9FF0-2EB5A1006033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A820C9-EE19-46F4-9827-EB94D2E70502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A820C9-EE19-46F4-9827-EB94D2E70502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A820C9-EE19-46F4-9827-EB94D2E70502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A820C9-EE19-46F4-9827-EB94D2E70502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
